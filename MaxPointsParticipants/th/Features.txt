@@ -1,0 +1,12 @@
+List of features:
+•	Show all the students
+•	Show all the assignment
+•	Show all the marks
+•	Add a student with the corresponding data: name, group, email, coordinating teacher
+•	Add a new assignment
+•	Delete a student
+•	Delete an assignment
+•	Add a new theme
+•	Update the data of a student
+•	Make an assignment
+•	Can exit the application

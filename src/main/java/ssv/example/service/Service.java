@@ -7,6 +7,8 @@ import ssv.example.domain.Tema;
 import ssv.example.repository.NotaXMLRepository;
 import ssv.example.repository.StudentXMLRepository;
 import ssv.example.repository.TemaXMLRepository;
+import ssv.example.validation.StudentValidator;
+import ssv.example.validation.TemaValidator;
 
 import java.time.LocalDate;
 import java.time.temporal.WeekFields;
@@ -30,7 +32,9 @@ public class Service {
     public Iterable<Nota> findAllNote() { return notaXmlRepo.findAll(); }
 
     public int saveStudent(String id, String nume, int grupa) {
+        StudentValidator studentValidator = new StudentValidator();
         Student student = new Student(id, nume, grupa);
+        studentValidator.validate(student);
         Student result = studentXmlRepo.save(student);
 
         if (result == null) {
@@ -40,7 +44,9 @@ public class Service {
     }
 
     public int saveTema(String id, String descriere, int deadline, int startline) {
+        TemaValidator temaValidator = new TemaValidator();
         Tema tema = new Tema(id, descriere, deadline, startline);
+        temaValidator.validate(tema);
         Tema result = temaXmlRepo.save(tema);
 
         if (result == null) {

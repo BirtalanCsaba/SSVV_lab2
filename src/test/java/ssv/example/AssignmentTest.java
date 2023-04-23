@@ -14,8 +14,7 @@ import ssv.example.validation.StudentValidator;
 import ssv.example.validation.TemaValidator;
 import ssv.example.validation.ValidationException;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
+import static org.junit.Assert.*;
 
 public class AssignmentTest {
 
@@ -52,17 +51,39 @@ public class AssignmentTest {
     public void tearDown() throws Exception {
     }
 
-    @Test
-    public void canAddAssignment() {
-        Tema tema = new Tema("1", "TestDescription", 4, 2);
-        temaValidator.validate(tema);
+    @Test(expected = ValidationException.class)
+    public void addAssignmentShouldThrowWhenIdNull() {
+        service.saveTema(null, "test desc", 4, 2);
+        fail();
     }
 
     @Test(expected = ValidationException.class)
-    public void addAssignmentShouldThrowWhenStartLineLessThenDeadline() {
-        Tema tema = new Tema("1", "TestDescription", 2, 4);
-        temaValidator.validate(tema);
+    public void addAssignmentShouldThrowWhenDescriptionNull() {
+        service.saveTema("2", null, 4, 2);
         fail();
+    }
+
+    @Test(expected = ValidationException.class)
+    public void addAssignmentShouldThrowWhenDeadlineOutOfBounds() {
+        service.saveTema("2", "test desc", 15, 2);
+        fail();
+    }
+
+    @Test(expected = ValidationException.class)
+    public void addAssignmentShouldThrowWhenStartLineOutOfBounds() {
+        service.saveTema("2", "test desc", 1, 0);
+        fail();
+    }
+
+    @Test
+    public void canAddAssignment() {
+        assertEquals(service.saveTema("4", "test desc", 4, 2), 1);
+    }
+
+    @Test
+    public void shouldReturn1WhenAssignmentWithTheSameIdIsAlreadyAdded() {
+        service.saveTema("2", "test desc", 4, 2);
+        assertEquals(service.saveTema("2", "test desc", 4, 2), 0);
     }
 
 }

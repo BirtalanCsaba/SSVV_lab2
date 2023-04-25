@@ -14,6 +14,10 @@ import ssv.example.validation.StudentValidator;
 import ssv.example.validation.TemaValidator;
 import ssv.example.validation.ValidationException;
 
+import java.io.BufferedWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 import static org.junit.Assert.*;
 
 public class AssignmentTest {
@@ -77,7 +81,7 @@ public class AssignmentTest {
 
     @Test
     public void canAddAssignment() {
-        assertEquals(service.saveTema("4", "test desc", 4, 2), 1);
+        assertEquals(service.saveTema("22", "test desc", 4, 2), 1);
     }
 
     @Test

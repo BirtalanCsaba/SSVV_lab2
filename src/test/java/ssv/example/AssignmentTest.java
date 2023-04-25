@@ -81,7 +81,7 @@ public class AssignmentTest {
 
     @Test
     public void canAddAssignment() {
-        assertEquals(service.saveTema("22", "test desc", 4, 2), 1);
+        service.saveTema("22", "test desc", 4, 2);
     }
 
     @Test

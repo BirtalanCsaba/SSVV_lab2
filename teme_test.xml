@@ -20,4 +20,9 @@
         <Deadline>4</Deadline>
         <Startline>2</Startline>
     </tema>
+    <tema ID="8">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
 </Entitati>

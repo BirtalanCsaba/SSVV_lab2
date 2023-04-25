@@ -10,7 +10,7 @@ public class NotaValidator implements Validator<Nota> {
         if (nota.getID().getObject2() == null || nota.getID().equals("")) {
             throw new ValidationException("ID Tema invalid! \n");
         }
-        if (nota.getNota() < 0 || nota.getNota() > 10) {
+        if (nota.getNota() < 0 || nota.getNota() > 100) {
             throw new ValidationException("Nota invalida! \n");
         }
         if (nota.getSaptamanaPredare() < 0) {

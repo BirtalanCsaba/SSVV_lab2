@@ -10,6 +10,11 @@
         <Deadline>4</Deadline>
         <Startline>2</Startline>
     </tema>
+    <tema ID="22">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
     <tema ID="d37a1c2d-d894-401c-a98f-80aff5e5f832">
         <Descriere>test desc</Descriere>
         <Deadline>4</Deadline>

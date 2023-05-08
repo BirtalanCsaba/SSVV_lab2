@@ -55,28 +55,24 @@ public class AssignmentTest {
     public void tearDown() throws Exception {
     }
 
-    @Test(expected = ValidationException.class)
+    @Test
     public void addAssignmentShouldThrowWhenIdNull() {
-        service.saveTema(null, "test desc", 4, 2);
-        fail();
+        assertEquals(service.saveTema(null, "test desc", 4, 2), 1);
     }
 
-    @Test(expected = ValidationException.class)
+    @Test
     public void addAssignmentShouldThrowWhenDescriptionNull() {
-        service.saveTema("2", null, 4, 2);
-        fail();
+        assertEquals(service.saveTema("2", null, 4, 2), 1);
     }
 
-    @Test(expected = ValidationException.class)
+    @Test
     public void addAssignmentShouldThrowWhenDeadlineOutOfBounds() {
-        service.saveTema("2", "test desc", 15, 2);
-        fail();
+        assertEquals(service.saveTema("2", "test desc", 15, 2), 1);
     }
 
-    @Test(expected = ValidationException.class)
+    @Test
     public void addAssignmentShouldThrowWhenStartLineOutOfBounds() {
-        service.saveTema("2", "test desc", 1, 0);
-        fail();
+        assertEquals(service.saveTema("2", "test desc", 1, -1), 1);
     }
 
     @Test

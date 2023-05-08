@@ -5,6 +5,11 @@
         <SaptamanaPredare>1</SaptamanaPredare>
         <Feedback>test feedback</Feedback>
     </nota>
+    <nota IDStudent="133dd28e-e6d8-4d10-bf61-27799f394a81" IDTema="4b473e3a-ec6e-4093-b16e-5f794f7d7f29">
+        <Nota>15.0</Nota>
+        <SaptamanaPredare>2</SaptamanaPredare>
+        <Feedback>test feedback</Feedback>
+    </nota>
     <nota IDStudent="11" IDTema="8">
         <Nota>9.5</Nota>
         <SaptamanaPredare>1</SaptamanaPredare>

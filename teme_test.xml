@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <tema ID="be59e987-bd10-4404-a07e-8aa55adc5c86">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
+    <tema ID="11ec2866-2ecc-4358-8b8c-4d95b8710b4c">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
+    <tema ID="d37a1c2d-d894-401c-a98f-80aff5e5f832">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
+    <tema ID="79c05ce7-c185-4a21-87a0-5922cfa290b1">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
+    <tema ID="be8c6532-4aa3-4311-a8d4-7f7184fd22aa">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
+    <tema ID="057ab16a-690e-4ba6-9c19-e4df96115a4a">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
+    <tema ID="b6b7b1ff-fd21-487c-8294-4faf5cb1f1b3">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
+    <tema ID="5499adf2-594a-41b2-a19f-7c96491c61a2">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
     <tema ID="1">
         <Descriere>File</Descriere>
         <Deadline>7</Deadline>
@@ -9,6 +49,11 @@
         <Descriere>XML</Descriere>
         <Deadline>8</Deadline>
         <Startline>7</Startline>
+    </tema>
+    <tema ID="a522834e-85c0-4976-8aa2-2af8d2cfd9cc">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
     </tema>
     <tema ID="3">
         <Descriere>gui</Descriere>
@@ -20,7 +65,22 @@
         <Deadline>4</Deadline>
         <Startline>2</Startline>
     </tema>
+    <tema ID="ba34fb70-d662-4805-8319-66d680a794b8">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
     <tema ID="8">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
+    <tema ID="4b473e3a-ec6e-4093-b16e-5f794f7d7f29">
+        <Descriere>test desc</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
+    <tema ID="46ecd0d4-f904-4f8b-be4d-b61a69f93598">
         <Descriere>test desc</Descriere>
         <Deadline>4</Deadline>
         <Startline>2</Startline>

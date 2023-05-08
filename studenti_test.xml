@@ -4,6 +4,22 @@
         <Nume>Student1</Nume>
         <Grupa>935</Grupa>
     </student>
+    <student ID="80bfaaac-61e0-4950-b975-128f5b60c586">
+        <Nume>Student1</Nume>
+        <Grupa>935</Grupa>
+    </student>
+    <student ID="133dd28e-e6d8-4d10-bf61-27799f394a81">
+        <Nume>Student1</Nume>
+        <Grupa>935</Grupa>
+    </student>
+    <student ID="ef345144-a196-4121-979d-16b7f136c45c">
+        <Nume>Student1</Nume>
+        <Grupa>935</Grupa>
+    </student>
+    <student ID="fef92b15-43ab-4781-b5d7-2749a50fe86d">
+        <Nume>Student1</Nume>
+        <Grupa>935</Grupa>
+    </student>
     <student ID="1">
         <Nume>Raul Mogos</Nume>
         <Grupa>935</Grupa>
@@ -12,11 +28,35 @@
         <Nume>Maria</Nume>
         <Grupa>222</Grupa>
     </student>
+    <student ID="1ed83b06-0444-4177-a788-12f321e20cef">
+        <Nume>Student1</Nume>
+        <Grupa>935</Grupa>
+    </student>
     <student ID="4">
         <Nume>Ion</Nume>
         <Grupa>227</Grupa>
     </student>
+    <student ID="75a0bf29-4c11-4089-bd6d-2097fae84766">
+        <Nume>Student1</Nume>
+        <Grupa>935</Grupa>
+    </student>
     <student ID="9">
+        <Nume>Student1</Nume>
+        <Grupa>935</Grupa>
+    </student>
+    <student ID="1828edb5-f5c0-4d25-bc1f-81041c417cc2">
+        <Nume>Student1</Nume>
+        <Grupa>935</Grupa>
+    </student>
+    <student ID="41928af4-5c76-42b7-94ef-848a18d4acbb">
+        <Nume>Student1</Nume>
+        <Grupa>935</Grupa>
+    </student>
+    <student ID="c379fe41-e6c8-4b17-9f1f-e87d880536c4">
+        <Nume>Student1</Nume>
+        <Grupa>935</Grupa>
+    </student>
+    <student ID="19fdf62f-e736-4cc2-9a0f-c71cc20204b4">
         <Nume>Student1</Nume>
         <Grupa>935</Grupa>
     </student>
